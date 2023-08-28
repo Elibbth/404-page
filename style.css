@@ -1,4 +1,4 @@
-htlm, body {
+html, body {
     margin: 0;
     padding: 0;
 }
@@ -23,7 +23,9 @@ h1 {
 /* header */
 
 /* main */
-
+main {
+    text-align: center;
+}
 .c-oopsy {
     display: flex;
     align-items: center;
@@ -32,6 +34,7 @@ h1 {
 .pixg {
     flex: 1;
     padding: 10px;
+    text-align: left;
 }
 .oopsy {
     flex: 1;
@@ -50,6 +53,20 @@ h2 {
 .error {
     font-weight: bold;
     text-align: center;
+}
+.boutonRetour {
+    display: inline-block;
+    background-color: rgb(255, 20, 20);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+.boutonRetour:hover {
+    color:rgb(255, 20, 20);
+    background-color: white;
+    border: solid 1px rgb(255, 20, 20);
 }
 /* footer */
 footer {
