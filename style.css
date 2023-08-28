@@ -1,6 +1,11 @@
+htlm, body {
+    margin: 0;
+    padding: 0;
+}
 /* header */
 header {
     height: 170px;
+    display: none;
 }
 .pixeli {
     float: left;
@@ -19,7 +24,7 @@ h1 {
 
 /* main */
 
-main {
+.c-oopsy {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,9 +48,8 @@ h2 {
     height: 300px;
 }
 .error {
-    display: inline-block;
     font-weight: bold;
-    margin: auto;
+    text-align: center;
 }
 /* footer */
 footer {
@@ -55,6 +59,7 @@ footer {
     background: darkolivegreen;
     text-align: center;
     color: white;
+    margin: 0;
 }
 a {
     color: white;
