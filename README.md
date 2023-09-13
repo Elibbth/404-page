@@ -18,4 +18,4 @@ Language.s de programmation utilisé.s :
     HTML (sémantique)
     CSS
 
-[Error 404 page .README][(1.TRAIL/1.The-Field/4.HTML-CSS/0.fundamentals/05-error-404.md]
+[Error 404 page .README](https://github.com/becodeorg/CRL-KELLER-6/blob/main/1.TRAIL/1.The-Field/4.HTML-CSS/0.fundamentals/05-error-404.md)
